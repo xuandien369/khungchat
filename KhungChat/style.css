@@ -1,0 +1,36 @@
+#main {
+    width: 700px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 50px;
+    ;
+}
+
+#main__chat-frame {
+    height: 500px;
+    overflow-x: auto;
+    background-color: pink;
+    padding: 10px;
+}
+
+#main__chat-frame .child {
+    color: grey;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.child {
+    margin: 10px;
+}
+
+#main #name {
+    background-color: pink;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#main #name span {
+    margin-top: 5px;
+}
