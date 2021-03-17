@@ -53,13 +53,15 @@
     height: 50px;
 }
 
-
+.header__box-chat {
+    background-color:#0ea20e;
+}
 .roomlist .room:hover {
-    background-color: pink;
+    background-color: #919191;
 }
 
 .roomlist div.active {
-    background-color: greenyellow;
+    background-color: #008000;
 }
 
 .name {
@@ -67,6 +69,7 @@
     font-weight: bold;
     margin-top: -40px;
     margin-bottom: 15px;
+  
 }
 
 
@@ -131,7 +134,7 @@
     margin-bottom: 10px;
 }
 
-.cmm p {
+.cmm {
     background-color: #9edb00;
     max-width: 50%;
     float: left;
@@ -144,22 +147,28 @@
     word-wrap: break-word;
 }
 
-.caiconcac p {
+.caiconcac {
     background-color: #0ddfa5;
     max-width: 50%;
     float: right;
     clear: both;
-    margin-bottom: 56px;
     border-radius: 10px;
     padding: 10px;
 }
 
-.child:last-child {
+/* .child:last-child {
     float: none;
-}
+} */
 
 #main__chat-send {
     height: 48px;
 }
 
+.ml-30 {
+    margin-left: -30px;
+}
+.wrap {
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
 /* Kết thúc Khung nhắn tin */
