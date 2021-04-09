@@ -92,6 +92,10 @@
 .nav-item-avartar:hover .header__navbar-user-menu{
     display: block;
 }
+.nav-item-avartar {
+    
+}
+
 .header__navbar-user-menu {
     position: absolute;
     z-index: 1;
@@ -104,6 +108,9 @@
     list-style: none;
     box-shadow: 0 0 3px #ccc;/*bóng nổi*/
     display:none;
+    transform-origin: calc(100% - 32px) top;
+    animation:headeNotifyGrowth ease-in 0.5s;
+    will-change: opacity, transform;
 }
 .header__navbar-user-menu::before {
     content: "";
@@ -143,4 +150,14 @@
 }
 .header__navbar-user-item a:hover {
     background-color: #fafafa;
+}
+@keyframes headeNotifyGrowth {
+    from {
+        opacity: 0;/*Hiện mờ dần lên*/
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
